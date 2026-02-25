@@ -93,7 +93,7 @@ for konyv in konyvek:
 
 for kiado in konyvek_kiadoi:
     if konyvek_kiadoi.count(kiado) > legtobb_konyv_kiadonkent:
-        legtobb_konyv_kiadonkent = konyvek_iroi.count(kiado)
+        legtobb_konyv_kiadonkent = konyvek_kiadoi.count(kiado)
         legtobb_konyv_kiadoja.append(kiado)
 
     elif konyvek_iroi.count(kiado) == legtobb_konyv_kiadonkent:
